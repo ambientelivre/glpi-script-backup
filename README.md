@@ -1,6 +1,6 @@
-# suitecrm-script-backup
-A Backup Script for SuiteCRM by @ambientelivre
-The project is open source in https://github.com/ambientelivre/suitecrm-script-backup
+# glpi-script-backup
+A Backup Script for GLPI by @ambientelivre
+The project is open source in https://github.com/ambientelivre/glpi-script-backup
 contrib!
 Create by marcio@ambientelivre.com.br
 
@@ -11,6 +11,6 @@ Sample of Backup in 01:00AM
 exec crontab -e
 
 edit:
-#backup suiteCRM base + files
+#backup GLPI base + files
 
-01 00 * * * cd /var/www/html/suitecrm-script-backup; sh suitebackup.sh
+01 00 * * * cd /var/www/html/gtlp/scripts/glpi-script-backup; sh glpibackup.sh
