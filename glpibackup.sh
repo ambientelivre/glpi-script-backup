@@ -10,10 +10,10 @@
 GLPI_DIR=/var/www/html/glpi
 
 #User access GLPI database
-DATABASE_USER=glpi
+DATABASE_USER=root
 
 # Passwd for user access GLPI database
-DATABASE_PWD=123456
+DATABASE_PWD=password
 
 # Name of the Database GLPI
 DATABASE_NAME=glpi
