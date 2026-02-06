@@ -11,6 +11,7 @@ Sample of Backup in 01:00AM
 exec crontab -e
 
 edit:
+
 #Backup GLPI Software + Base + files.
 
 01 00 * * * cd /var/www/html/glpi/scripts/glpi-script-backup; sh glpibackup.sh
